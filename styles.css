@@ -2,9 +2,31 @@
 img {
     height: 300px;
     width: 300px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 h1 {
     color: blue;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    border: 2px solid blueviolet;
+    padding: 3px;
+    border-radius: 16px;
 }
